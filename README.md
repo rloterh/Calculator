@@ -32,7 +32,7 @@ This is the first branch of the calculator project. It covers setting up of reac
 
 1. - In your terminal run the command `git clone https://github.com/rloterh/Calculator.git`
 2. - Navigate to the cloned project directory
-3. - Run the command `npm init` to setup webpack and other project dependencies
+3. - Run the command `npm i` to setup webpack and other project dependencies
 4. - Run the command `npm start` to compile the project, and launch in a web browser
 
 
