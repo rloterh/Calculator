@@ -1,9 +1,9 @@
-# Calculator - Project Setup (Microverse React Module)
+# Calculator - M2. Add Components (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the first branch of the calculator project. It covers setting up of react project structure, adding necessary node dependendies and deploying the app to [heroku](https://www.heroku.com).
+This is the second branch of the calculator project. It covers adding various components of the calculator such as buttons and displays.
 
 
 ## Library Directory 📙
@@ -24,8 +24,11 @@ This is the first branch of the calculator project. It covers setting up of reac
 
 ## Built With
 
-- React
-- JavaScript
+- React 17.02
+- JavaScript (ES6)
+- ESLint 7.32
+- Airbnb ESLint 18.2.1
+- Stylelint 13.13.1
 
 
 ## Getting Started
