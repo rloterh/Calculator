@@ -1,9 +1,9 @@
-# Calculator - M2. Add Components (Microverse React Module)
+# Calculator - M3. Styling (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the second branch of the calculator project. It covers adding various components of the calculator such as buttons and displays.
+This is the third milestone of the calculator project, and it emocompasses the styling of the calculator app.
 
 
 ## Library Directory 📙
@@ -11,6 +11,7 @@ This is the second branch of the calculator project. It covers adding various co
 | Contents                  |
 | ------------------------- |
 | [Live Demo](#live-demo) |
+| [App Screenshot](#app-screenshot) |
 | [Built With](#built-with)   |
 | [Getting Started](#getting-started)   |
 | [Linters](#linters)   |
@@ -20,6 +21,11 @@ This is the second branch of the calculator project. It covers adding various co
 
 ## Live Demo
 [Calculator live demo](https://salty-citadel-54840.herokuapp.com/)
+
+## App Screenshot
+| |
+|:-------------------------:|
+| <img alt="Calculator App" src="https://user-images.githubusercontent.com/12745474/136697585-1566fc73-886a-4b3c-8e67-b5fdee85fe51.png"> <p align="center"><b>Calculator</b><p>|
 
 
 ## Built With
