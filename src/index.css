@@ -42,3 +42,44 @@ code {
   align-items: center;
   justify-items: center;
 }
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#000;
+  font-weight: 700;
+  padding: 24px 0;
+  background-color:#e0e0e0;
+  border-radius: 2px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-groups {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  gap: 2px;
+}
+
+.btn-group-a,
+.btn-group-b {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.btn-group-b .button:first-child {
+  flex: 2;
+}
+
+.btn-group-b .button:nth-child(2),
+.btn-group-b .button:nth-child(3) {
+  flex: 1;
+}
+
+.btn-group-a .button:last-child,
+.btn-group-b .button:last-child {
+  background-color: #f5913e;
+}
