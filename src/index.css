@@ -83,3 +83,14 @@ code {
 .btn-group-b .button:last-child {
   background-color: #f5913e;
 }
+
+.display {
+  width: 340px;
+  margin: 2px 0;
+  background-color: #858694;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  padding: 22px;
+}
