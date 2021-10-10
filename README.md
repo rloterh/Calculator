@@ -3,7 +3,7 @@
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the third milestone of the calculator project, and it emocompasses the styling of the calculator app.
+This is the third milestone of the calculator project, and it emcompasses the styling of the calculator app.
 
 
 ## Library Directory 📙
