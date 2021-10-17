@@ -1,9 +1,9 @@
-# Calculator - M3. Styling (Microverse React Module)
+# Calculator - M4. Calculation Logic (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the third milestone of the calculator project, and it emcompasses the styling of the calculator app.
+This is the fourth milestone of the calculator project, and it emcompasses the implementation of operations and calculation modules to the calculator app.
 
 
 ## Library Directory 📙
@@ -47,7 +47,7 @@ This is the third milestone of the calculator project, and it emcompasses the st
 
 ## Linters
 
-The syntax of this project was lintered using [Stylelint](https://stylelint.io/) and [Eslint](https://eslint.org/)
+The syntax of this project was standardized using [Stylelint](https://stylelint.io/) and [Eslint](https://eslint.org/)
  
 
 ### Validating JavaScript Syntax
