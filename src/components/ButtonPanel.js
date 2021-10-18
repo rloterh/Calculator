@@ -36,4 +36,8 @@ const ButtonPanel = ({ handleClick }) => (
   </div>
 );
 
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
+
 export default ButtonPanel;
