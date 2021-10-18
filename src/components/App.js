@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div className="App">
         <Display result={this.update()} />
-        <ButtonPanel handleClick={this.handleClick} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
