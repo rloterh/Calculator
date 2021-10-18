@@ -1,9 +1,9 @@
-# Calculator - M4. Calculation Logic (Microverse React Module)
+# Calculator - M5. Interactions (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the fourth milestone of the calculator project, and it emcompasses the implementation of operations and calculation modules to the calculator app.
+This is the fifth milestone of the calculator project, and in this milestone interactions such as button click events are implemented.
 
 
 ## Library Directory 📙
@@ -47,7 +47,7 @@ This is the fourth milestone of the calculator project, and it emcompasses the i
 
 ## Linters
 
-The syntax of this project was standardized using [Stylelint](https://stylelint.io/) and [Eslint](https://eslint.org/)
+The syntax of this project was mainly standardized using [Stylelint](https://stylelint.io/) and [Eslint](https://eslint.org/)
  
 
 ### Validating JavaScript Syntax
