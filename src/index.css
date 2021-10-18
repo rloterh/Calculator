@@ -49,11 +49,17 @@ code {
   justify-content: center;
   color: #000;
   font-weight: 700;
-  padding: 24px 0;
+  padding: 26px 0;
   background-color: #e0e0e0;
   border-radius: 2px;
   width: 100%;
   cursor: pointer;
+  border: none;
+}
+
+.button:focus {
+  border: none;
+  outline: none;
 }
 
 .button-groups {
@@ -82,14 +88,16 @@ code {
 .btn-group-a .button:last-child,
 .btn-group-b .button:last-child {
   background-color: #f5913e;
+  font-size: 14px;
 }
 
 .display {
   width: 340px;
+  height: 80px;
   margin: 2px 0;
   background-color: #858694;
   color: #fff;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   text-align: right;
   padding: 22px;
