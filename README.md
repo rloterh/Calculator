@@ -1,9 +1,9 @@
-# Calculator - M5. Interactions (Microverse React Module)
+# Math Magicians - Routes & Testing (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the fifth milestone of the calculator project, and in this milestone interactions such as button click events are implemented.
+In this branch, the calcutor application is updated into mini website called Math Magicians using react-routes package.
 
 
 ## Library Directory 📙
@@ -14,7 +14,7 @@ This is the fifth milestone of the calculator project, and in this milestone int
 | [App Screenshot](#app-screenshot) |
 | [Built With](#built-with)   |
 | [Getting Started](#getting-started)   |
-| [Linters](#linters)   |
+| [Validation & Testing](#validation-&-testing)   |
 | [Author](#author)       |
 | [License](#license)       |
 
@@ -34,7 +34,9 @@ This is the fifth milestone of the calculator project, and in this milestone int
 - JavaScript (ES6)
 - ESLint 7.32
 - Airbnb ESLint 18.2.1
+- CSS
 - Stylelint 13.13.1
+- Jest Testing Library
 
 
 ## Getting Started
@@ -45,9 +47,11 @@ This is the fifth milestone of the calculator project, and in this milestone int
 4. - Run the command `npm start` to compile the project, and launch in a web browser
 
 
-## Linters
+## Validation & Testing
 
 The syntax of this project was mainly standardized using [Stylelint](https://stylelint.io/) and [Eslint](https://eslint.org/)
+
+This application was tested using mainly [Jest Testing Library](https://jestjs.io/)
  
 
 ### Validating JavaScript Syntax
@@ -56,8 +60,8 @@ The syntax of this project was mainly standardized using [Stylelint](https://sty
 2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
 3. - Go to the terminal, and navigate to project directory
 4. - Run the command `npm i`
-5. - Validate the javascript syntax and code standard by running the command `npx eslint app.js`
-6. - All test cases passes, when no error message is shown in the terminal
+5. - Validate the javascript syntax and code standard by running the command `npx eslint .`
+6. - All validation cases passes, when no error message is displayed in the terminal
 
 ### Validating CSS Syntax
 
@@ -66,7 +70,14 @@ The syntax of this project was mainly standardized using [Stylelint](https://sty
 3. - Go to the terminal, and navigate to project directory
 4. - Run the command `npm i`
 5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
-6. - All test cases passes, when no error message is shown in the terminal
+6. - All validations cases passes, when no error message is displayed in the terminal
+
+### Testing
+
+1. - Within the terminal, navigate to project directory
+2. - Ensure the necessary testing dependincies are installed, by running the command `npm i`
+3. - Run the command `npm test`
+4. - All test cases passes, when no error message is shown in the terminal
 
 
 
