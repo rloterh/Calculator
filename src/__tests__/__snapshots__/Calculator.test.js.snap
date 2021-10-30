@@ -2,6 +2,7 @@
 
 exports[`checks if Calculator component renders correctly should render correctly 1`] = `
 <div
+  className="intro-text"
   style={
     Object {
       "fontSize": "20px",

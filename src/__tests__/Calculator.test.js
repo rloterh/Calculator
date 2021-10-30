@@ -9,6 +9,12 @@ describe('checks if Calculator component renders correctly', () => {
     expect(text).toBeInTheDocument();
   });
 
+  test('Check if ClassName of calculator page exists', () => {
+    render(<Calculator />);
+    const calculator = document.querySelector('.intro-text');
+    expect(calculator).not.toBeNull();
+  });
+
   test('should render correctly', () => {
     const tree = renderer.create(<Calculator />).toJSON();
     expect(tree).toMatchSnapshot();

@@ -47,6 +47,7 @@ Array [
         }
       >
         <div
+          className="intro-text"
           style={
             Object {
               "fontSize": "20px",
