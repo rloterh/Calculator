@@ -5,10 +5,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -23,24 +19,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
 }
 
 .button {
@@ -101,4 +79,55 @@ code {
   font-weight: 700;
   text-align: right;
   padding: 22px;
+}
+
+nav {
+  top: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5913e;
+  padding: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.navbar > * {
+  padding: 0 10px 0 10px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.calc-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px 0 10px;
+  width: 100%;
+}
+
+.quote {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px 0 10px;
 }
