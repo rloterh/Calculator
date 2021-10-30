@@ -16,10 +16,14 @@ const operate = (operandOne, operandTwo, operation) => {
       result = digitsA.times(digitsB);
       break;
     case '÷':
-      if (operandTwo === '0') result = undefined;
-      result = digitsA.div(digitsB);
+      if (operandTwo === '0') {
+        result = 'Error';
+      } else {
+        result = digitsA.div(digitsB);
+      }
       break;
     default:
+      result = 'Error';
       break;
   }
 
