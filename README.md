@@ -14,7 +14,7 @@ In this branch, the calcutor application is updated into mini website called Mat
 | [App Screenshot](#app-screenshot) |
 | [Built With](#built-with)   |
 | [Getting Started](#getting-started)   |
-| [Validation & Testing](#validation-&-testing)   |
+| [Validation & Testing](#validation--testing)   |
 | [Author](#author)       |
 | [License](#license)       |
 
