@@ -1,10 +1,8 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({ label, clickHandler }) => {
-  const handleClick = (buttonName) => {
-    clickHandler(buttonName);
-  };
+const Button = (props) => {
+  const { label, handleClick } = props;
+
   return (
     <button type="button" className="button" onClick={() => handleClick(label)}>
       {label}
@@ -14,7 +12,7 @@ const Button = ({ label, clickHandler }) => {
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
-  clickHandler: PropTypes.func.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;
